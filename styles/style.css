@@ -95,7 +95,7 @@ button:hover{
 
 /* Midnight Css Start */
 .midnight-party-details{
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/midnight.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/vector.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -149,6 +149,9 @@ button:hover{
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
+}
+.place-details .place-text-bottom{
+    margin-bottom: 40px;
 }
 .place-details .place-highlight{
     color: #F00;
@@ -209,3 +212,39 @@ button:hover{
     margin-bottom: 52px;
 }
 /* Best Offer Css End */
+
+/* Portfolio Css Start */
+#portfolio h4{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#portfolio h2{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 22px;
+    margin-bottom: 28px;
+}
+#portfolio p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 54px;
+}
+#portfolio .portfolio-middle{
+    display: flex;
+    justify-content: space-between;
+}
+#portfolio .portfolio-middle, .portfolio-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+/* Portfolio Css End */
