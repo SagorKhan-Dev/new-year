@@ -14,8 +14,41 @@ ul, li {
 h1, h2, h3, h4, h5, h6, p{
     line-height: 0.8;
 }
-
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
 
 
 
 /* Common / Global Css End */
+
+/* Banner Css Start */
+#banner{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    padding: 180px 0;
+    border-radius: 16px;
+    
+}
+#banner .banner-greeting{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+#banner .banner-title{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+    margin: 0 auto;
+}
+/* Banner Css End */
