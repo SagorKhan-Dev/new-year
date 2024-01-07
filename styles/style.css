@@ -18,8 +18,20 @@ h1, h2, h3, h4, h5, h6, p{
     width: 1320px;
     margin: 0 auto;
 }
-
-
+button{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    border: none;
+    transition: all linear 0.4s;
+}
+button:hover{
+    background: rgb(246, 81, 81);
+}
 
 /* Common / Global Css End */
 
@@ -32,7 +44,6 @@ h1, h2, h3, h4, h5, h6, p{
     margin-top: 50px;
     padding: 180px 0;
     border-radius: 16px;
-    
 }
 #banner .banner-greeting{
     color: #FFF;
@@ -52,3 +63,31 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0 auto;
 }
 /* Banner Css End */
+
+/* New Year Css Start */
+.new-year-details{
+    margin: 120px 0;
+    text-align: center;
+}
+.new-year-details .new-year-title{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+}
+.new-year-details .new-year-description{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 58px;
+    margin-bottom: 24px;
+}
+.new-year-details .new-year-bottom-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 50px;
+}
+/* New Year Css End */
