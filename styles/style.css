@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p{
     width: 1320px;
     margin: 0 auto;
 }
-button{
+.btn-primary{
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -30,7 +30,7 @@ button{
     transition: all linear 0.4s;
     cursor: pointer;
 }
-button:hover{
+.btn-primary:hover{
     background: rgb(246, 81, 81);
 }
 
@@ -248,3 +248,59 @@ button:hover{
     margin-top: 23px;
 }
 /* Portfolio Css End */
+
+/* Subscribe Css Start */
+#subscribe{
+    margin: 120px 0;
+}
+.subscribe-details{
+    text-align: center;
+    margin: 90px 0;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-details h3{
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 46px;
+    margin-bottom: 30px;
+}
+.subscribe-details p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    width: 896px;
+    margin: 0 auto;
+}
+.subscribe-details input{
+    padding: 25px 267px 25px 35px ;
+    margin: 80px 0;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+
+.subscribe-details input::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+.subscribe-details .btn-subscribe{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 56px;
+    background: red;
+    border: none;
+    border-radius: 0 50px 50px 0;
+}
+.subscribe-details .inp-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Subscribe Css End */
