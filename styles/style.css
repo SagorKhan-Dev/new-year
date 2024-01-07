@@ -304,3 +304,59 @@ background: rgba(255, 0, 0, 0.05);
     justify-content: center;
 }
 /* Subscribe Css End */
+
+/* Footer Css Start */
+footer{
+    background: #000000;
+}
+.footer-details{
+    padding: 120px 0;
+}
+.footer-details .footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-details .footer-top-left h4{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+}
+.footer-top .footer-top-right .phone , .web{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.footer-top .footer-top-right p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 50px 0;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+/* Footer Css End */
